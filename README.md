@@ -27,6 +27,7 @@ tests/steps/ # step definitions (.ts)
 
 npm i -D playwright @cucumber/cucumber @cucumber/html-formatter \
   typescript ts-node @types/node dotenv cross-env
+  npx playwright install --with-deps
 
 ### 2) Run Tests
 
