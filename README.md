@@ -30,7 +30,7 @@ End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Pla
 - npx playwright install --with-deps
 
 
-### 3) Run tests
+### 2) Run tests
 
 - npm run bdd
 - npx cucumber-js --tags @focus
