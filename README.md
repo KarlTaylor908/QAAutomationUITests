@@ -7,6 +7,7 @@ End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Pla
 - Validate search results  
 - Add a product to basket  
 - Update quantity to **3**
+- Validate subtotal
 
 ## Tech stack
 - Node 18+
