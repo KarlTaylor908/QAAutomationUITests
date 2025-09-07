@@ -18,9 +18,9 @@ End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Pla
 - dotenv, cross-env
 
 ## Project structure
-features/ # .feature files (Gherkin)
-features/support/ # hooks, world, env setup
-tests/steps/ # step definitions (.ts)
+- features/ # .feature files (Gherkin)
+- features/support/ # hooks, world, env setup
+- tests/steps/ # step definitions (.ts)
 
 ## Getting started
 
