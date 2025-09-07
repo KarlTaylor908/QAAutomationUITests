@@ -24,13 +24,13 @@ tests/steps/ # step definitions (.ts)
 ## Getting started
 
 ### 1) Install dependencies and browsers
-``bash
+
 npm i -D playwright @cucumber/cucumber @cucumber/html-formatter \
   typescript ts-node @types/node dotenv cross-env
-``bash
+
 ### 2) Run Tests
-``bash
+
 npx cucumber-js --tags @focus
 npm run bdd
-``bash
+
 
