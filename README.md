@@ -24,15 +24,15 @@ tests/steps/ # step definitions (.ts)
 ## Getting started
 
 ### 1) Install dependencies & browsers
-`bash
+
 npm install
 npx playwright install --with-deps
-`
+
 
 3) Run tests
-`bash
+
 npm run bdd
 npx cucumber-js --tags @focus
-`
+
 
 
