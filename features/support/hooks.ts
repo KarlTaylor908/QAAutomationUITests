@@ -31,6 +31,10 @@ this.page = await this.context.newPage();
     await browser.close();
     });
 
-After(async function (this: CustomWorld) {
-    await this.context?.close();
+After(async function ({ result }: any) {
+  if (String(result?.status).toUpperCase() !== 'PASSED') {
+    const shot = await this.page.screenshot({ fullPage: true });
+    await this.attach(shot, 'image/png');
+  }
+  await this.context.close();
 });

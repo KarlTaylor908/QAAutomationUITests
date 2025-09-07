@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"bdd":"cucumber-js", "bdd:report": "cucumber-js --format html:reports/cucumber-report.html --format progress"},
+    "scripts": {
+    "bdd": "cucumber-js --format progress --format html:reports/cucumber-report.html",
+    "bdd:parallel": "cucumber-js --parallel 4 --format progress --format html:reports/cucumber-report.html",
+    "bdd:headed": "cross-env HEADLESS=0 npm run bdd",
+    "smoke": "cucumber-js --tags @smoke --format progress --format html:reports/cucumber-report.html"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
     "@cucumber/cucumber": "^12.2.0",
+    "@cucumber/html-formatter": "^21.14.0",
     "@playwright/test": "^1.55.0",
     "@types/node": "^24.3.1",
     "ts-node": "^10.9.2",
