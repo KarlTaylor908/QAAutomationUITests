@@ -29,7 +29,7 @@ npm install
 npx playwright install --with-deps
 
 
-###3) Run tests
+### 3) Run tests
 
 npm run bdd
 npx cucumber-js --tags @focus
