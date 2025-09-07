@@ -1,37 +1,38 @@
-# AutomationUITests (Playwright + Cucumber + TypeScript)
+# Automation UI Tests (TypeScript · Playwright · Cucumber)
 
 End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Playwright**, and **Cucumber (BDD)**.
 
-Scenarios covered (starter):
-- Search for a product
-- Validate search results
-- Add a product to basket
+## Scenarios covered (starter)
+- Search for a product  
+- Validate search results  
+- Add a product to basket  
 - Update quantity to **3**
 
 ## Tech stack
 - Node 18+
-- TypeScript
+- TypeScript, ts-node, @types/node
 - Playwright (Chromium by default)
 - @cucumber/cucumber (Gherkin)
 - @cucumber/html-formatter (HTML report)
-- ts-node, dotenv
+- dotenv, cross-env
 
-- ## Project structure
-- features/ # .feature files (Gherkin)
-- features/support/ # hooks, world, env setup
+## Project structure
+features/ # .feature files (Gherkin)
+features/support/ # hooks, world, env setup
 tests/steps/ # step definitions (.ts)
 
 ## Getting started
 
-### 1) Install dependencies and browsers
+### 1) Install dependencies & browsers
 
-npm i -D playwright @cucumber/cucumber @cucumber/html-formatter \
-  typescript ts-node @types/node dotenv cross-env
-  npx playwright install --with-deps
+npm install
+npx playwright install --with-deps
 
-### 2) Run Tests
 
-npx cucumber-js --tags @focus
+### 3) Run tests
+
 npm run bdd
+npx cucumber-js --tags @focus
+
 
 
