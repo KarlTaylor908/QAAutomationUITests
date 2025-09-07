@@ -31,8 +31,8 @@ tests/steps/ # step definitions (.ts)
 
 ### 3) Run tests
 
--npm run bdd
--npx cucumber-js --tags @focus
+- npm run bdd
+- npx cucumber-js --tags @focus
 
 
 
