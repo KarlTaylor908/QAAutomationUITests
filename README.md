@@ -22,7 +22,7 @@ End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Pla
 - features/support/ # hooks, world, env setup
 - tests/steps/ # step definitions (.ts)
 
-## Getting started
+## Instructions on Use
 
 ### 1) Install dependencies & browsers
 
@@ -30,7 +30,7 @@ End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Pla
 - npx playwright install --with-deps
 
 
-### 2) Run tests
+### 2) Run tests in the Command Palette (Ctrl+Shift+P)
 
 - npm run bdd
 - npx cucumber-js --tags @focus
