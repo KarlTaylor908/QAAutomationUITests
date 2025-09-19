@@ -29,6 +29,31 @@ End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Pla
 - Passing example — quantity updated to 3
 <img width="453" height="164" alt="image" src="https://github.com/user-attachments/assets/533b3fea-2ffe-496c-80ac-1f6a5189e1ce" />
 
+## Project Tree
+
+QAAutomationUITests/
+├─ features/
+│  ├─ addProduct.feature
+│  ├─ increaseQuantity.feature
+│  ├─ searchProduct.feature
+│  └─ support/
+│     ├─ hooks.ts
+│     └─ world.ts
+├─ features/step-definitions/
+│  ├─ addProduct.steps.ts
+│  ├─ increaseQuantity.steps.ts
+│  └─ searchProduct.steps.ts
+├─ pages/
+│  ├─ BasketPage.ts
+│  ├─ HomePage.ts
+│  └─ ResultsPage.ts
+├─ helpers/
+│  └─ consent.ts
+├─ playwright.config.ts
+├─ cucumber.js
+├─ package.json
+├─ package-lock.json
+└─ README.md
 
 ## Instructions on Use
 
