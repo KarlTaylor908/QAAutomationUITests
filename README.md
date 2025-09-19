@@ -22,32 +22,6 @@ End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Pla
 - features/support/ # hooks, world, env setup
 - tests/steps/ # step definitions (.ts)
 
-## Project Tree
-
-QAAutomationUITests/
-- ├─ features/
-- │  ├─ addProduct.feature
-- │  ├─ increaseQuantity.feature
-- │  ├─ searchProduct.feature
-- │  └─ support/
-- │     ├─ hooks.ts
-- │     └─ world.ts
-- ├─ test/steps
-- │  ├─ addProduct.steps.ts
-- │  ├─ increaseQuantity.steps.ts
-- │  └─ searchProduct.steps.ts
-- ├─ pages/
-- │  ├─ BasketPage.ts
-- │  ├─ HomePage.ts
-- │  └─ ResultsPage.ts
-- ├─ helpers/
-- │  └─ consent.ts
-- ├─ playwright.config.ts
-- ├─ cucumber.js
-- ├─ package.json
-- ├─ package-lock.json
-- └─ README.md
-
 ## Examples of Test Cases
 - Given basket page → update quantity to '3' → assert '2'** (intentionally wrong) to show failure output.
 <img width="449" height="163" alt="image" src="https://github.com/user-attachments/assets/4aebe737-a658-4ced-8193-d6d681f48eee" />
