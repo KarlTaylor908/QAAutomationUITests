@@ -23,10 +23,10 @@ End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Pla
 - tests/steps/ # step definitions (.ts)
 
 ## Examples of Test Cases
-- Failed Test where quantity should be 3.
+- Given basket page → update quantity to '3' → assert '2'** (intentionally wrong) to show failure output.
 <img width="449" height="163" alt="image" src="https://github.com/user-attachments/assets/4aebe737-a658-4ced-8193-d6d681f48eee" />
 
-- Passed Test where qauantity is 3.
+- Passing example — quantity updated to 3
 <img width="453" height="164" alt="image" src="https://github.com/user-attachments/assets/533b3fea-2ffe-496c-80ac-1f6a5189e1ce" />
 
 
