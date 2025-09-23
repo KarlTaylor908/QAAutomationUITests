@@ -22,15 +22,21 @@ End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Pla
 - features/support/ # hooks, world, env setup
 - tests/steps/ # step definitions (.ts)
 
-## Getting started
+## Examples of Test Cases
+- Given basket page → update quantity to '3' → assert '2'** (intentionally wrong) to show failure output.
+<img width="449" height="163" alt="image" src="https://github.com/user-attachments/assets/4aebe737-a658-4ced-8193-d6d681f48eee" />
+
+- Passing example — quantity updated to 3
+<img width="453" height="164" alt="image" src="https://github.com/user-attachments/assets/533b3fea-2ffe-496c-80ac-1f6a5189e1ce" />
+
+## Instructions on Use
 
 ### 1) Install dependencies & browsers
 
 - npm install
 - npx playwright install --with-deps
 
-
-### 2) Run tests
+### 2) Run tests in the Command Palette (Ctrl+Shift+P)
 
 - npm run bdd
 - npx cucumber-js --tags @focus
