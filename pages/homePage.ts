@@ -17,7 +17,6 @@ async searchInput(query: string) {
 //The code below has been generated using ChatGPT 
 async  open(): Promise<void> {
     await this.page.goto('/');
-
 }
 
 }
