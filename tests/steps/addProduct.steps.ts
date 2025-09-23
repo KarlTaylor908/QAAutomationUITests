@@ -41,5 +41,4 @@ Then('I should see the {string} in the basket', async function (this: CustomWorl
  expect(productPrice?.trim()).toBe('£279.00');
 
 }
-
 );
