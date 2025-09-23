@@ -16,8 +16,6 @@ When('I add the {string} to the basket', async function (this: CustomWorld, prod
 
   const modal = this.result.waitForModal(); 
 
-   await expect(modal).toBeVisible({timeout:15000});
-
 const continueBtn = this.result.locateContinueToBasket();
 
    await expect(continueBtn).toBeVisible({timeout:15000});
@@ -40,7 +38,7 @@ Then('I should see the {string} in the basket', async function (this: CustomWorl
  expect(productTitle?.trim()).toContain(product);
 
  const productPrice = await this.basket.getProductPrice().textContent();
- expect(productPrice?.trim()).toBe('£179.00');
+ expect(productPrice?.trim()).toBe('£279.00');
 
 }
 

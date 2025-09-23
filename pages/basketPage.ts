@@ -40,7 +40,7 @@ getUnitPrice(): Locator {
 };
 
 //The code below was created by Chat GPT with edits
-//This is my example of where I have refined AI Code. Please see screenshots in Word Document
+//This is my example of where I have refined AI Code.
  async parsePriceToPence(priceText :string): Promise<number> {
     const clean = priceText.trim().replace('£','').replace(',','').replace(' ', '');
     const [poundsPart, pencePart =''] = clean.split('.');
@@ -50,7 +50,7 @@ getUnitPrice(): Locator {
 };
 
 //The code below was created by Chat GPT with edits
-//This is my example of where I have refined AI Code. Please see screenshots in Word Document
+//This is my example of where I have refined AI Code.
 async getPrices(): Promise<[string, string]> {
 
  const [totalText, unitText] = await Promise.all([
