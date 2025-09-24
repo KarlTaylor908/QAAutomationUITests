@@ -28,6 +28,6 @@
     "playwright": "^1.55.0",
     "playwright-core": "^1.55.0",
     "undici-types": "^7.10.0",
-    "@cucumber/cucumber": "^10", 
+    "@cucumber/cucumber": "^10" 
   }
 }
