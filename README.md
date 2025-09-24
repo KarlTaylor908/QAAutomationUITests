@@ -1,4 +1,4 @@
-[![Playwright Tests](https://github.com/KarlTaylor908/QAAutomationUITests/actions/workflows/playwright.yml/badge.svg)](https://github.com/KarlTaylor908/QAAutomationUITests/actions/workflows/playwright.yml)
+
 # Automation UI Tests (TypeScript · Playwright · Cucumber)
 
 End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Playwright**, and **Cucumber (BDD)**.
