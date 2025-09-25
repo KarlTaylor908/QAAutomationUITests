@@ -39,6 +39,5 @@ Then('I should see the {string} in the basket', async function (this: CustomWorl
 
  const productPrice = await this.basket.getProductPrice().textContent();
  expect(productPrice?.trim()).toBe('£279.00');
-
 }
 );

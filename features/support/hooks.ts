@@ -10,7 +10,7 @@ BeforeAll(async () => {
   browser = await chromium.launch({ 
      channel: 'chrome',
      args: ['--start-maximized'],
-    headless: false }
+    headless: true }
   );
     
   
